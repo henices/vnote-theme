@@ -1,0 +1,3 @@
+[submodule "vnote-solarized-theme"]
+	path = vnote-solarized-theme
+	url = git@github.com:Nriver/vnote-solarized-theme.git
