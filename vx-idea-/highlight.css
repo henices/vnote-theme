@@ -65,7 +65,8 @@
  .token.comment,
  .token.prolog,
  .token.cdata {
-	 color: #00804e;
+/*	 color: #00804e;*/
+	 color: darkgray;
  }
  
  .token.doctype,
