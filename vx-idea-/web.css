@@ -9,9 +9,13 @@ body {
     font-family: "Source Han Sans SC VF", "YaHei Consolas Hybrid", "Segoe UI", Helvetica, sans-serif, Tahoma, Arial, Geneva, Georgia, Palatino, "Times New Roman", "冬青黑体", "Microsoft YaHei", "微软雅黑", "Microsoft YaHei UI", "WenQuanYi Micro Hei", "文泉驿雅黑", Dengxian, "等线体", STXihei, "华文细黑", "Liberation Sans", "Droid Sans", NSimSun, "新宋体", SimSun, "宋体";
     font-weight: 500;
     color: #222222;
-    line-height: 1.5;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
     text-rendering: optimizelegibility;
-    -webkit-text-size-adjust: 100%;
+    -webkit-text-size-adjustpacing: 0.03em;
+    -webkit-text-size-adjust: 100% !important;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: subpixel-antialiased; 100%;
     /*-webkit-font-smoothing: antialiased;*/
     padding: 15px;
     background-color: #ffffff;
@@ -86,10 +90,12 @@ li ul, li ol {
     margin-left: 16px;
 }
 
+/*
 p, ul, ol {
     font-size: 16px;
     line-height: 24px;
 }
+*/
 
 mark {
     color: #000000;
